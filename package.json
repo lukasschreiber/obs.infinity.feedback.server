@@ -1,0 +1,18 @@
+{
+  "name": "obs_websocket",
+  "version": "1.0.0",
+  "description": "OBS Plugin Websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Lukas Schreiber",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "ws": "^7.5.0"
+  }
+}

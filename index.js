@@ -17,7 +17,7 @@ client.login(config.BOT_TOKEN);
 client.on('ready', () => {
     //.guild... test only?
     commands.forEach(command => {
-        client.api.applications(client.user.id).guilds('856537286916046899').commands.post({
+        client.api.applications(client.user.id).commands.post({
             data: command
         });
     })

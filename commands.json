@@ -1,0 +1,150 @@
+[
+    {
+        "name": "hello",
+        "description": "Says Hallo in a random language.",
+        "options": [
+            {
+                "name": "scope",
+                "description": "Wheather only you can see the command",
+                "required": false,
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "everyone",
+                        "value": "everyone"
+                    },
+                    {
+                        "name": "me",
+                        "value": "me"
+                    }
+                ]
+            },
+            {
+                "name": "language",
+                "description": "Says hello in this language",
+                "required": false,
+                "type": 3
+            }
+        ]
+    },
+    {
+        "name": "time",
+        "description": "Shows how long the stream has been running.",
+        "options": [
+            {
+                "name": "scope",
+                "description": "Whether only you can see the command",
+                "required": false,
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "everyone",
+                        "value": "everyone"
+                    },
+                    {
+                        "name": "me",
+                        "value": "me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "scenes",
+        "description": "Shows all scenes present in the session.",
+        "options": [
+            {
+                "name": "scope",
+                "description": "Whether only you can see the command",
+                "required": false,
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "everyone",
+                        "value": "everyone"
+                    },
+                    {
+                        "name": "me",
+                        "value": "me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "scene",
+        "description": "Shows whether the scene is live or in preview.",
+        "options": [
+            {
+                "name": "scene",
+                "description": "The scene",
+                "required": true,
+                "type": 3
+            },
+            {
+                "name": "scope",
+                "description": "Whether only you can see the command",
+                "required": false,
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "everyone",
+                        "value": "everyone"
+                    },
+                    {
+                        "name": "me",
+                        "value": "me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "live",
+        "description": "Shows the name of the scene that is currently live.",
+        "options": [
+            {
+                "name": "scope",
+                "description": "Whether only you can see the command",
+                "required": false,
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "everyone",
+                        "value": "everyone"
+                    },
+                    {
+                        "name": "me",
+                        "value": "me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "preview",
+        "description": "Shows the name of the scene that is currently in preview.",
+        "options": [
+            {
+                "name": "scope",
+                "description": "Whether only you can see the command",
+                "required": false,
+                "type": 3,
+                "choices": [
+                    {
+                        "name": "everyone",
+                        "value": "everyone"
+                    },
+                    {
+                        "name": "me",
+                        "value": "me"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "help",
+        "description": "Displays a list of all commands you can use."
+    }
+]
